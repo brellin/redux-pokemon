@@ -7,8 +7,7 @@ import './App.css'
 
 function App(props) {
 
-  if (props.loggedIn) return
-  <div className="App">
+  if (props.loggedIn) return <div className="App">
     <header>
       <h1>Pokemon</h1>
       <PokemonList />
